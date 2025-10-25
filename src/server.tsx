@@ -27,7 +27,7 @@ Bun.serve({
         <body>
           <div id="root">
             <Suspense fallback={<>Loading...</>}>
-              <Component {...props} />
+              <Component {...props} component={Component} />
             </Suspense>
           </div>
         </body>

@@ -1,8 +1,4 @@
-const delay = (dur: number) => {
-  return new Promise(resolve => setTimeout(resolve, dur));
-}
 
-export default async function Component() {
-  await delay(3000);
+export default function Component() {
   return <h1>Landing page!</h1>
 }
