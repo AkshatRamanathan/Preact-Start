@@ -1,0 +1,14 @@
+{
+  "name": "preact-start",
+  "scripts": {
+    "dev": "bun run --hot src/server.tsx"
+  },
+  "dependencies": {
+    "preact": "^10.27.2",
+    "preact-render-to-string": "^6.6.3"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prettier": "^3.6.2"
+  }
+}
