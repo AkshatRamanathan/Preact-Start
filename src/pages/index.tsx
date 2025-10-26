@@ -1,4 +1,12 @@
 
+export const metadata = ({
+  title: "Homepage"
+});
+
 export default function Component() {
-  return <h1>Landing page!</h1>
+  return (
+    <main>
+      <h1>Main landing page</h1>
+    </main>
+  )
 }
